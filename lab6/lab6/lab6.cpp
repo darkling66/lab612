@@ -2,9 +2,6 @@
 //
 
 #include "stdafx.h"
-#include <math.h>
-#include <string.h>
-#include "windows.h"
 
 
 typedef double(*func_t)(double);
@@ -33,10 +30,10 @@ int main()
 		printf("Error");
 		return -1;
 	}
-	fprintf(fp, "Function น1\n");
+	fprintf(fp, "Function ยน1\n");
 	tabulate_func1(func1, fp);
 	printf("\n");
-	fprintf(fp, "Function น2\n");
+	fprintf(fp, "Function ยน2\n");
 	tabulate_func2(func2, fp);
 	fprintf(fp, "Integral F1 - %d\n", trapezia_metod(func1, a, b, eps));
 	fprintf(fp, "Integral F2 - %d\n", trapezia_metod(func2, a, b, eps));
