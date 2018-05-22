@@ -3,7 +3,6 @@
 
 Отключить для языка: английский
 #include "stdafx.h"
-#include "windows.h"
 
 #define FILE(path, file, mode)\
 FILE* file;\
